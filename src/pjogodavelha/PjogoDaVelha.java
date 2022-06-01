@@ -57,15 +57,14 @@ boolean confere = true,t;
             r[i] = tabuleiro[i] [k];
                 System.out.println(r[i]);
                 System.out.println(i);
-   //         if(r.equals(r[1]) && r[1].equalsIgnoreCase("*")){
-               if(r[0].equals(r[2])){
+            if(r.equals(r[1]) && r[1].equalsIgnoreCase("*")){
                 System.out.println("passou1"+r[i]);
                 if (r[1].equals(r[2])){
                     System.out.print("JOGADOR"+jogador+" GANHOU");
                     System.out.println("passou2"+r[i]);
                     confere = false;
-               }
-                }else{
+                }
+            }else{
                 confere = true;
             }
           }
